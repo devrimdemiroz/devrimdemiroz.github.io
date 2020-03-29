@@ -1,6 +1,7 @@
-# contactTracing
-Just documenting covid-19 related contact trace softwares..
-Last Update:Sat Mar 28 13:41:22 CET 2020
+# Tracing "Contact Tracing"
+_Last Update:Sat Mar 28 13:41:22 CET 2020_
+Just documenting covid-19 related contact trace softwares..  
+
 
 Chasing “Contact Trace” Softwares around the world brought me here as I was not able to find a consolidated listing of what is available. 
 I hope it helps others… Please feel free to contribute. 
