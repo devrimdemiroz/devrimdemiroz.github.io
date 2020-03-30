@@ -1,5 +1,5 @@
 <script>
-const GH_API_URL = 'https://github.com/devrimdemiroz/devrimdemiroz.github.io/issues/{{ page.comments_id }}/comments?client_id=75930f286f46c60bed41&client_secret=bd1796da639c12776ecab23878dec90441e87412';
+const GH_API_URL = 'https://github.com/devrimdemiroz/devrimdemiroz.github.io/issues/{{ page.comments_id }}/comments?client_id=75930f286f46c60bed41&client_secret=bd1796da639c12776ecab23878dec90441e87412&scope=repo';
 
 let request = new XMLHttpRequest();
 request.open( 'GET', GH_API_URL, true );
