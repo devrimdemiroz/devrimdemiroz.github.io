@@ -3,7 +3,6 @@ layout: post
 title:  "Contact Trace Identity Angle"
 ---
 
-# Contact Trace - Identity Angle
 
 Approximately a week ago, decided to be a part of a solution about covid-19. After chasing myself to a practical fit,  
 attached to "Contact Trace" Softwares. Did a preliminary current analysis, can be found in  https://devrimdemiroz.github.io/ . 
@@ -19,7 +18,7 @@ Identity as a concept itself. Not only bounded with privacy issues, while ensuri
 What do we have in hand? 
 
 
-###Blockchain Footprints
+### Blockchain Footprints
 
 Foresight of following article is [Responding to the COVID-19 Challenge with Verifiable Credentials](https://www.evernym.com/covid19-creds/)  
 is very valuable.
