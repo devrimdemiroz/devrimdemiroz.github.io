@@ -5,7 +5,7 @@ category: home
 comments_id: 1
 ---
 
-_Last Update:Sat Mar 28 13:41:22 CET 2020_  
+_Last Update: Sat April 1 13:41:22 CET 2020_  
 Just documenting covid-19 related contact trace softwares..  
 
 
@@ -25,7 +25,7 @@ Smart quarantine|Czech     |[Smart quarantine](https://medium.com/@pabu01/covid1
 coronapp |Turkey     |[coronapp](https://coronapp.tech/)|No
 coronawarner |Turkey     |[coronawarner](https://www.linkedin.com/posts/geodotech_corowarner-hackcorona-coronathontaesrkiye-activity-6648915397267476480-TT4N)|No
 Alipay |China     |N/A|No
-WeChat |China     |N/A|No
+WeChat |China     |<a href="https://www.wechat.com/en/" target="_blank">wechat</a> |No
 Corona 100m (Co100) |Korea     |N/A|No
 N/A |Taiwan     |N/A|No
 
@@ -34,9 +34,10 @@ Scroll down for details
 ## World Health Organization
 ### `WHO App`
 
-- <https://www.who.int/mediacentre/multimedia/app/en/>
-- **Opensource**: <https://github.com/WorldHealthOrganization/app>
-- Contact Tracing is one of the five key goals of app stated in <https://docs.google.com/document/d/1isNMLpwI2iUY92KPwJHfY7kQnpN3oCuUl6c94J7Qmhs/edit>
+- <a href="https://www.who.int/mediacentre/multimedia/app/en/" target="_blank">https://www.who.int/mediacentre/multimedia/app/en/</a>
+- **Opensource**: <a href="https://github.com/WorldHealthOrganization/app" target="_blank">https://github.com/WorldHealthOrganization/app</a>
+- Contact Tracing is one of the five key goals of app stated in 
+<a href="https://docs.google.com/document/d/1isNMLpwI2iUY92KPwJHfY7kQnpN3oCuUl6c94J7Qmhs/edit?usp=sharing" target="_blank">WHO COVID-19 App For Location Based Containment, Triage & Response</a>
 - Same infrastructure addressed in safepaths app. "The plan is to leverage the PrivateKit technology from MIT."
 
 ***
@@ -111,15 +112,27 @@ Scroll down for details
 - **Opensource**: NO
 
 ### `corowarner`
-- <https://www.linkedin.com/posts/geodotech_corowarner-hackcorona-coronathontaesrkiye-activity-6648915397267476480-TT4N>
+- <a href="https://www.linkedin.com/posts/geodotech_corowarner-hackcorona-coronathontaesrkiye-activity-6648915397267476480-TT4N" target="_blank">geodotech_corowarner-hackcorona-coronathontaesrkiye-activit</a>
 - **Opensource**: NO
+- More information(In Turkish) on youtube <a href="https://youtu.be/KwuWcTp2ZnQ" target="_blank">CoroWarner telefon uygulaması koronavirüs salgınının Türkiye'deki yayılım hızını düşürmeyi amaçlıyor</a> 
+  
 ***
 
 
 
 ## China
+- "_Alibaba and Tencent are working with local governments. They have created health QR codes. 
+Users get different colors depending on travel history and health. 
+The agreement over health code 'passports' between localities underscores China's urgency in getting people back to work._".
+ You might want to have a quick look at short video <a href="https://youtu.be/Sp-TaoPdrWo" target="_blank">Chinese cities cooperating on health code systems</a>.
+   
+- Contact tracing features provided inside Alipay and WeChat applications is not just informing people, but as well acts as clarance by color. 
+Three colors. Red, yellow, green. Only Green can drive, tracel or even get into a market.
+- **Opensource**: NO
 ### `Alipay` 
 ### `WeChat`
+- <a href="https://www.wechat.com/en/" target="_blank">https://www.wechat.com/en/</a> by Tencent
+
 ***
 
 ## Korea
