@@ -110,4 +110,6 @@ We can do this using DID documents, Verifiable Credentials (VCs) and some distri
  
 - <a href="https://arxiv.org/pdf/1801.03294.pdf" target="_blank">A First Look at Identity Management Schemes on the Blockchain</a>
  by Paul Dunphy and Fabien A. P. Petitcolas
+- <a href="https://www.researchgate.net/publication/334458009_Self-Sovereign_Identity_A_Comparison_of_IRMA_and_Sovrin"
+ target="_blank">Self-Sovereign Identity: A Comparison of IRMA and Sovrin</a> by Jelle C. Nauta, Rieks Joosten
 - 
