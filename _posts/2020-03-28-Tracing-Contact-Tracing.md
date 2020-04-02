@@ -5,7 +5,7 @@ category: home
 comments_id: 1
 ---
 
-_Last Update: Sat April 2 07:00:00 CET 2020_  
+_Last Update: Sat April 2 14:00:00 CET 2020_  
 Just documenting COVID-19 related contact trace softwares..  
 
 

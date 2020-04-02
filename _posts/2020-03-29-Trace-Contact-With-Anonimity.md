@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Contact Trace Identity Angle"
+comments_id: 2
 ---
 
 
@@ -20,7 +21,12 @@ Identity as a concept itself.
 Not only bounded with privacy issues, while ensuring end to end coverage in terms of 
 "Verifiable Sovereign Identity", also respect human values, evaluate future, be fast , be efficient , think practical ...
 
-What do we have in hand? 
+The need for a Global Identity coupled with COVID-19 credentials is crucial to return to our "new normal" lives. 
+Just to state an example, after pandemic gets controlled, suppose I would like travel to a country. Now my medical 
+COVID-19 history is a part of my VISA. May be not only for the country I am going, as well for the airlines I have choose. 
+Moreover,  when I arrive there , foreign country authorities might want to keep track me as risk factor. And so on...
+
+**What do we have in hand?** 
 
 #### Current Identity Implementations in Contact Trace Software's
 
