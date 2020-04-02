@@ -6,7 +6,7 @@ comments_id: 1
 ---
 
 _Last Update: Sat April 2 07:00:00 CET 2020_  
-Just documenting covid-19 related contact trace softwares..  
+Just documenting COVID-19 related contact trace softwares..  
 
 
 Chasing “Contact Trace” Softwares around the world brought me here as I was not able to find a consolidated listing of what is available. 
@@ -25,6 +25,7 @@ geoHealthApp|Germany     |[geoHealthApp](https://www.geohealthapp.de/)|No
 Smart quarantine|Czech     |[Smart quarantine](https://medium.com/@pabu01/covid19cz-update-bb7e12e71d9e)|No
 coronapp |Turkey     |[coronapp](https://coronapp.tech/)|No
 coronawarner |Turkey     |[coronawarner](https://www.linkedin.com/posts/geodotech_corowarner-hackcorona-coronathontaesrkiye-activity-6648915397267476480-TT4N)|No
+N/A |Russia     |<a href="https://www.bbc.com/news/technology-52121264" target="_blank">BBC news</a>|No
 Alipay |China     |N/A|No
 WeChat |China     |<a href="https://www.wechat.com/en/" target="_blank">wechat</a> |No
 Corona 100m (Co100) |Korea     |N/A|No
@@ -127,7 +128,15 @@ AI triage and clinical predictions platform._"  from link:
   
 ***
 
+## Russia
+### ``
+- Related news: <a href="https://www.bbc.com/news/technology-52121264" target="_blank">Coronavirus: Moscow rolls out 
+patient-tracking app</a>
+- Application details(In russian, use a translator on browser) 
+<a href="https://echo.msk.ru/programs/razvorot-morning/2616757-echo/" target="_blank">About the application for 
+monitoring quarantined Muscovites</a>
 
+***
 
 ## China
 - "_Alibaba and Tencent are working with local governments. They have created health QR codes. 

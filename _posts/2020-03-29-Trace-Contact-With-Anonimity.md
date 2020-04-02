@@ -10,6 +10,7 @@ Did a preliminary current analysis, can be found in  <a href="{% post_url 2020-0
 
 However, ended up chasing usual "Identity Crisis" as an Identity and Access Management specialist in very same context.  
 
+Please consider this article as a "draft log". Currently just stuffing with possibilities yet with intention to refine later.
 
 Eventhough many of the listed products listed in post 
 <a href="{% post_url 2020-03-28-Tracing-Contact-Tracing %}" target="_blank"> Tracing "Contact Tracing"  </a>  claims to  
@@ -21,10 +22,14 @@ Not only bounded with privacy issues, while ensuring end to end coverage in term
 
 What do we have in hand? 
 
-### Current Identity Implementations in Contact Trace Software's
+#### Current Identity Implementations in Contact Trace Software's
 
-Not all apps has been published yet. 
+Not all apps listed in <a href="{% post_url 2020-03-28-Tracing-Contact-Tracing %}" target="_blank"> this post </a> has been published to market yet.
+
 - **WHO** app is not featuring contact trace yet and when you install the application you just see a mobile version of their official web page.
+
+***
+
 - **tracetogether** application requires an OTP authentication send to a number starting with +65 XXXXXXXXX , 
 which initially means the main/central "verifiable identity" link is established using telco infrastructure. 
 The collected bluetooth identities around that particular device is the "temporary ID" created on device. 
@@ -33,14 +38,46 @@ One leaking point in terms of coverage lies here within. Suppose you are a touri
 You would not be able to participate the system meanwhile system will not able to aware of your disease. 
 Situation links to a "Sovereign Identity" need for coverage.
 
+***
+
+#### Verifiable credentials (VCs)
+
+You might want to check <a href="https://www.wikiwand.com/en/Verifiable_credentials" target="_blank">Verifiable credentials</a> 
+on wikipedia before going further. From their definition:  
+ 
+"_**Verifiable credentials (VCs)** are the electronic equivalent of the physical credentials that we all possess today, 
+such as: plastic cards, passports, driving licences, qualifications and awards, etc._"
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/VC_triangle_of_Trust.svg/640px-VC_triangle_of_Trust.svg.png?1585827350750" 
+alt="Verifiable credentials" 
+class="responsiveImage" >
+
+
+
 ### Blockchain Footprints
 `sovrin`  
-Foresight of following article is [Responding to the COVID-19 Challenge with Verifiable Credentials](https://www.evernym.com/covid19-creds/)  
+- Foresight of following article is [Responding to the COVID-19 Challenge with Verifiable Credentials](https://www.evernym.com/covid19-creds/)  
 is very valuable.
+
+***
+
+`Aries-DID`
+- <a href="https://github.com/OpenMined/Aries-DiD" target="_blank">https://github.com/OpenMined/Aries-DiD</a>
+- From the link above , "_We'd like users to be able to prove they are eligible for COVID screening 
+without the service provider knowing the identity of the user. 
+We can do this using DID documents, Verifiable Credentials (VCs) and some distributed identity concepts._"
+- Has a very simple and clear diagram how identity and clinical data should be handled in COVID-19 context. 
+<img src="https://raw.githubusercontent.com/OpenMined/Aries-DID/demo-finish/images/step0.png" alt="Building a Credential Eco-System for Anonymous Verification " class="responsiveImage" >
+
+***
 
 `uport`
 
-`shocard`
+***
+
+`ShoCard`
+- ShoCard has been acquired by Ping Identity.
+
+***
 
 ### Non-Blockchain 
 
