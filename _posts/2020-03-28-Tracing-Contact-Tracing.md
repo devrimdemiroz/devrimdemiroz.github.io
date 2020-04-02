@@ -5,7 +5,7 @@ category: home
 comments_id: 1
 ---
 
-_Last Update: Sat April 1 13:41:22 CET 2020_  
+_Last Update: Sat April 2 07:00:00 CET 2020_  
 Just documenting covid-19 related contact trace softwares..  
 
 
@@ -17,6 +17,7 @@ Product      | Country      | URL          | Opensource
 WHO App|World Health Organization     |[WHO App](https://docs.google.com/document/d/1isNMLpwI2iUY92KPwJHfY7kQnpN3oCuUl6c94J7Qmhs/edit)|[sources](https://github.com/WorldHealthOrganization/app)
 tracetogether|Singapore     |[tracetogether](https://www.tracetogether.gov.sg/)|In future
 hamagen|Israel     |[hamagen](https://govextra.gov.il/ministry-of-health/hamagen-app/download-en/)|[sources](https://govextra.gov.il/ministry-of-health/hamagen-app/download-en/)
+COVID360|Israel     |<a href="https://youtu.be/z84MfjI1Dp0" target="_blank">COVID360</a>|No
 safepaths|USA     |[safepaths](http://safepaths.mit.edu/)|[sources](https://github.com/tripleblindmarket/)
 covid-watch|USA     |[covid-watch](https://www.covid-watch.org/collaborate.html)|Unknown
 diAry|Italy     |[diAry](https://covid19app.uniurb.it/)|In April
@@ -63,8 +64,16 @@ Scroll down for details
 - **Architecture**: <https://proferopublic.s3-eu-west-1.amazonaws.com/5f72cff6-0fb5-4517-9941-99331819b5a0/profero_infographic_01_en.jpg>
 - React-native based Android and IOS clients , .ts typescript mostly
 - Location and wifi based
-***
+***  
 
+### `COVID360`
+- "_The full Corona treatment solution for patients and citizens at risk. 
+COVID360 built by Deloitte Israel, based on Salesforce Health-Cloud, and “Diagnostics Robotics” 
+AI triage and clinical predictions platform._"  from link:
+<a href="https://youtu.be/z84MfjI1Dp0" target="_blank">COVID360 - End to end centralized solution for Corona treatment</a>
+- **Opensource**: NO
+- Apart from general solutions outlined here within, this one brings backend server side into picture. 
+- Contact trace is not the main focus for COVID360 yet as an important feature of solution.
 
 ## USA
 ### `safepaths`
