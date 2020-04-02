@@ -13,3 +13,5 @@ google_verify:  uBST5lixEv3ZMZra_KZUcvypizVirBjpODWixQRaVOs
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
