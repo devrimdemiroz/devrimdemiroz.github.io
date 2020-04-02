@@ -1,3 +1,13 @@
 theme: jekyll-theme-slate
 title: D -
 description: o g
+author: Devrim Demiroz
+
+social:
+  name: Devrim Demiroz
+  links:
+    - https://www.linkedin.com/in/ulasdevrimdemiroz/
+    - https://github.com/devrimdemiroz/
+
+plugins:
+  - jekyll-seo-tag
