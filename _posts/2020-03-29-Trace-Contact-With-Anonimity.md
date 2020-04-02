@@ -24,7 +24,11 @@ Not only bounded with privacy issues, while ensuring end to end coverage in term
 The need for a Global Identity coupled with COVID-19 credentials is crucial to return to our "new normal" lives. 
 Just to state an example, after pandemic gets controlled, suppose I would like travel to a country. Now my medical 
 COVID-19 history is a part of my VISA. May be not only for the country I am going, as well for the airlines I have choose. 
-Moreover,  when I arrive there , foreign country authorities might want to keep track me as risk factor. And so on...
+Moreover,  when I arrive there , foreign country authorities might want to keep track me as risk factor. And so on...  
+You may find well defined use cases  in "<a href="https://github.com/disposableidentities/healthcrisis/blob/master/usecases.md"
+ target="_blank">5 use-cases of Health Status Sharing for Social Recovery with HygienGap</a> ".
+
+Any case, in terms of global economic and social recovery , today we are desperately in need see some light from the end of the tunnel. 
 
 **What do we have in hand?** 
 
@@ -57,12 +61,15 @@ such as: plastic cards, passports, driving licences, qualifications and awards, 
 alt="Verifiable credentials" 
 class="responsiveImage" >
 
-
+Having said so, Disposable Identities mentioned in 
+<a href="https://github.com/disposableidentities/healthcrisis" target="_blank">Disposable Identities for Health Crisis</a>
+is quite interesting as well. Still trying to figure out the intersection set and discrete sides. 
 
 ### Blockchain Footprints
 `sovrin`  
 - Foresight of following article is [Responding to the COVID-19 Challenge with Verifiable Credentials](https://www.evernym.com/covid19-creds/)  
 is very valuable.
+- Self-sovereign Identity
 
 ***
 
@@ -77,16 +84,30 @@ We can do this using DID documents, Verifiable Credentials (VCs) and some distri
 ***
 
 `uport`
+- Self-sovereign Identity
 
 ***
 
 `ShoCard`
 - ShoCard has been acquired by Ping Identity.
+- Decentralised Trusted Identity
 
 ***
 
+`OneName`
+- Self-sovereign Identity
+
+
+***
 ### Non-Blockchain 
 
 `IRMA`
 
  
+ ***
+ 
+### References
+ 
+- <a href="https://arxiv.org/pdf/1801.03294.pdf" target="_blank">A First Look at Identity Management Schemes on the Blockchain</a>
+ by Paul Dunphy and Fabien A. P. Petitcolas
+- 
