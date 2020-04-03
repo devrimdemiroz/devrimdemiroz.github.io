@@ -97,7 +97,7 @@ is very valuable.
  
  ***
  
- ### Who already started? Candidates for Global Identity Procurement 
+### Who already started? Candidates for Global Identity Procurement 
  
  `COVID-19 Credentials Initiative`
  
