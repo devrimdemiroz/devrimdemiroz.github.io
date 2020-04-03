@@ -30,7 +30,7 @@ Alipay |China     |N/A|No
 WeChat |China     |<a href="https://www.wechat.com/en/" target="_blank">wechat</a> |No
 Corona 100m (Co100) |Korea     |N/A|No
 N/A |Taiwan     |N/A|No
-CoviID |South Africa     |<a href="https://www.news.uct.ac.za/news/research-office/-article/2020-03-27-coviid-new-app-to-avoid-future-lockdowns" target="_blank">CoviID</a>|No
+CoviID |South Africa     |<a href="https://coviid.me/" target="_blank">CoviID</a>|No
 
 
 Details ahead
@@ -165,6 +165,7 @@ Three colors. Red, yellow, green. Only Green can drive, tracel or even get into 
 
 ## South Africa
 ### CoviID
+- <a href="https://coviid.me/" target="_blank">https://coviid.me/</a>
 - <a href="https://www.news.uct.ac.za/news/research-office/-article/2020-03-27-coviid-new-app-to-avoid-future-lockdowns"
  target="_blank">CoviID: new app to avoid future lockdowns</a>
 

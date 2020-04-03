@@ -73,15 +73,6 @@ is very valuable.
 
 ***
 
-`Aries-DID`
-- <a href="https://github.com/OpenMined/Aries-DiD" target="_blank">https://github.com/OpenMined/Aries-DiD</a>
-- From the link above , "_We'd like users to be able to prove they are eligible for COVID screening 
-without the service provider knowing the identity of the user. 
-We can do this using DID documents, Verifiable Credentials (VCs) and some distributed identity concepts._"
-- Has a very simple and clear diagram how identity and clinical data should be handled in COVID-19 context. 
-<img src="https://raw.githubusercontent.com/OpenMined/Aries-DID/demo-finish/images/step0.png" alt="Building a Credential Eco-System for Anonymous Verification " class="responsiveImage" >
-
-***
 
 `uport`
 - Self-sovereign Identity
@@ -105,6 +96,30 @@ We can do this using DID documents, Verifiable Credentials (VCs) and some distri
 
  
  ***
+ 
+ ### Who already started? Candidates for Global Identity Procurement 
+ 
+ `COVID-19 Credentials Initiative`
+ 
+ - <a href="http://fightthevirus.world" target="_blank">http://fightthevirus.world</a>
+ - <a href="https://www.youtube.com/channel/UCxvrnwNRxqqNWTU4_LAgnIQ" target="_blank">On Youtube</a>
+
+ 
+ ***
+ 
+`Aries-DID`
+ - <a href="https://github.com/OpenMined/Aries-DiD" target="_blank">https://github.com/OpenMined/Aries-DiD</a>
+ - From the link above , "_We'd like users to be able to prove they are eligible for COVID screening 
+ without the service provider knowing the identity of the user. 
+ We can do this using DID documents, Verifiable Credentials (VCs) and some distributed identity concepts._"
+ - Has a very simple and clear diagram how identity and clinical data should be handled in COVID-19 context. 
+ <img src="https://raw.githubusercontent.com/OpenMined/Aries-DID/demo-finish/images/step0.png" alt="Building a Credential Eco-System for Anonymous Verification " class="responsiveImage" >
+ 
+ ***
+ 
+ `id2020`
+ - -<a href="https://id2020.org/manifesto" target="_blank">id2020.org</a>
+ - Backed by mainly Accenture, Microsoft
  
 ### References
  

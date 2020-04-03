@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
-title: D -
-description: o g
+title: D-log
+description: Tracing “Contact Tracing”
 author: Devrim Demiroz
 
 social:
@@ -10,6 +10,7 @@ social:
     - https://github.com/devrimdemiroz/
 
 google_verify:  uBST5lixEv3ZMZra_KZUcvypizVirBjpODWixQRaVOs
+image: assets/images/covid-19.jpeg
 
 plugins:
   - jekyll-seo-tag
