@@ -5,7 +5,7 @@ category: home
 comments_id: 1
 ---
 
-_Last Update: Sat April 2 20:00:00 CET 2020_  
+_Last Update: Sat April 5 11:00:00 CET 2020_  
 Just documenting COVID-19 related contact trace softwares..  
 
 
@@ -32,6 +32,7 @@ WeChat |China     |<a href="https://www.wechat.com/en/" target="_blank">wechat</
 Corona 100m (Co100) |Korea     |N/A|No
 N/A |Taiwan     |N/A|No
 CoviID |South Africa     |<a href="https://coviid.me/" target="_blank">CoviID</a>|No
+StayHome |Abu Dhabi    |<a href="https://twitter.com/admediaoffice/status/1246127417892225025?ref_src=twsrc%5Etfw" target="_blank">StayHome</a>|No
 
 
 Details ahead
@@ -175,12 +176,19 @@ Three colors. Red, yellow, green. Only Green can drive, tracel or even get into 
 ***
 
 ## South Africa
-### CoviID
+### `CoviID`
 - <a href="https://coviid.me/" target="_blank">https://coviid.me/</a>
 - <a href="https://www.news.uct.ac.za/news/research-office/-article/2020-03-27-coviid-new-app-to-avoid-future-lockdowns"
  target="_blank">CoviID: new app to avoid future lockdowns</a>
+ - **Opensource**: NO
+ 
+## Abu Dhabi
+### `StayHome`
+- DoH Official: <a href="https://twitter.com/admediaoffice/status/1246127417892225025?ref_src=twsrc%5Etfw" target="_blank">tweet</a>
+- News: <a href="https://gulfnews.com/amp/uae/health/abu-dhabi-launches-smart-app-to-monitor-home-quarantined-people-1.70796153" 
+target="_blank">Abu Dhabi launches smart app to monitor home-quarantined people</a>
+- **Opensource**: NO
 
-[Trends](https://devrimdemiroz.github.io/contactTracing/trends.html)
 
 <div >
     <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2152_RC02/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"geoHealthApp","geo":"","time":"now 7-d"},{"keyword":"tracetogether","geo":"","time":"now 7-d"},{"keyword":"hamagen","geo":"","time":"now 7-d"},{"keyword":"diAry app","geo":"","time":"now 7-d"},{"keyword":"safepaths","geo":"","time":"now 7-d"}],"category":0,"property":""}, {"exploreQuery":"date=now%207-d&q=geoHealthApp,tracetogether,hamagen,diAry%20app,safepaths","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
