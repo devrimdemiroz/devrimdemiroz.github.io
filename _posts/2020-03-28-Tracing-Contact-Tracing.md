@@ -5,7 +5,7 @@ category: home
 comments_id: 1
 ---
 
-_Last Update: Sat April 5 12:00:00 CET 2020_  
+_Last Update: Sat April 5 13:00:00 CET 2020_  
 Just documenting COVID-19 related contact trace softwares..  
 
 
@@ -33,12 +33,13 @@ Corona 100m (Co100) |Korea     |N/A|No
 N/A |Taiwan     |N/A|No
 CoviID |South Africa     |<a href="https://coviid.me/" target="_blank">CoviID</a>|No
 StayHome |Abu Dhabi    |<a href="https://twitter.com/admediaoffice/status/1246127417892225025?ref_src=twsrc%5Etfw" target="_blank">StayHome</a>|No
+CoronApp |Colombia    |<a href="https://apps.apple.com/bf/app/coronapp-colombia/id1502037648" target="_blank">CoronApp</a>|No
 
 
 Details ahead
 
 ## Netherlands
-### PrivateTracer
+### `PrivateTracer`
 - **So far, the best designed solution offers privacy without a big brother!**
 - **Opensource**: <a href="https://gitlab.com/PrivateTracer/" target="_blank">https://gitlab.com/PrivateTracer/</a>
 - <a href="https://www.odyssey.org/pandemic-response-ecosystem/" target="_blank">https://www.odyssey.org/pandemic-response-ecosystem/</a>
@@ -189,7 +190,11 @@ Three colors. Red, yellow, green. Only Green can drive, tracel or even get into 
 target="_blank">Abu Dhabi launches smart app to monitor home-quarantined people</a>
 - **Opensource**: NO
 
+## Colombia
+### `CoronApp`
+- Appstore: <a href="https://apps.apple.com/bf/app/coronapp-colombia/id1502037648" target="_blank">CoronApp-Colombia</a>
+- **Opensource**: No
+- News: <a href="http://ehealthreporter.com/en/noticia/coronapp-colombia-la-aplicacion-para-conocer-la-evolucion-del-coronavirus-en-el-pais/" 
+target="_blank">CoronApp - Colombia, the app to know the evolution of the coronavirus in the country.</a>
+- Mandatory and lots of discussions about its disrespect for the privacy.
 
-<div >
-    <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2152_RC02/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"geoHealthApp","geo":"","time":"now 7-d"},{"keyword":"tracetogether","geo":"","time":"now 7-d"},{"keyword":"hamagen","geo":"","time":"now 7-d"},{"keyword":"diAry app","geo":"","time":"now 7-d"},{"keyword":"safepaths","geo":"","time":"now 7-d"}],"category":0,"property":""}, {"exploreQuery":"date=now%207-d&q=geoHealthApp,tracetogether,hamagen,diAry%20app,safepaths","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
-</div>
