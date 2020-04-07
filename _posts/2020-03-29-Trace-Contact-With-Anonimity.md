@@ -48,6 +48,11 @@ One leaking point in terms of coverage lies here within. Suppose you are a touri
 You would not be able to participate the system meanwhile system will not able to aware of your disease. 
 Situation links to a "Sovereign Identity" need for coverage.
 
+*** 
+- **PrivateTracer** aiming to use peerDID which offers a very practical solution for privacy. You can find the details 
+<a href="https://docs.google.com/document/d/16Ks_F23ivjfeTzZ6ZyRNTMpeNsA77lKbLiCTy_F1Ld8/edit#heading=h.rm8u1q1t3xc1" target="_blank">here</a>.
+
+
 ***
 
 #### Verifiable credentials (VCs)
@@ -61,9 +66,19 @@ such as: plastic cards, passports, driving licences, qualifications and awards, 
 alt="Verifiable credentials" 
 class="responsiveImage" >
 
+#### Disposable Identities
 Having said so, Disposable Identities mentioned in 
 <a href="https://github.com/disposableidentities/healthcrisis" target="_blank">Disposable Identities for Health Crisis</a>
 is quite interesting as well. Still trying to figure out the intersection set and discrete sides. 
+
+### decode
+With the argument <a href="https://tools.decodeproject.eu/" target="_blank">"DECODE gives back Data Sovereignty to Citizens"</a>, 
+decode is as well seems to be inline with Disposable Identities. Following post 
+<a href="https://medium.com/@jaromil/decentralized-privacy-preserving-proximity-tracing-cryptography-made-easy-af0a6ae48640" 
+target="_blank">Decentralized Privacy-Preserving Proximity Tracing</a> outlines how it can be used within contact trace 
+context of COVID-19.
+
+
 
 ### Blockchain Footprints
 `sovrin`  
@@ -95,7 +110,7 @@ is very valuable.
 `IRMA`
 
  
- ***
+***
  
 ### Who already started? Candidates for Global Identity Procurement 
  
