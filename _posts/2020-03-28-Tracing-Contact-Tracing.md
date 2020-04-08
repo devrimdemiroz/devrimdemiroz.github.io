@@ -5,7 +5,7 @@ category: home
 comments_id: 1
 ---
 
-_Last Update: Mon April 5 13:00:00 CET 2020_  
+_Last Update: April 8 08:00:00 CET 2020_  
 Just documenting COVID-19 related contact trace softwares..  
 
 
@@ -23,6 +23,7 @@ safepaths|USA     |[safepaths](http://safepaths.mit.edu/)|[sources](https://gith
 covid-watch|USA     |[covid-watch](https://www.covid-watch.org/collaborate.html)|Unknown
 diAry|Italy     |[diAry](https://covid19app.uniurb.it/)|In April
 geoHealthApp|Germany     |[geoHealthApp](https://www.geohealthapp.de/)|No
+corona-datenspende|Germany     |<a href="https://corona-datenspende.de/" target="_blank">Corona Data Donation</a>|No
 Smart quarantine|Czech     |[Smart quarantine](https://medium.com/@pabu01/covid19cz-update-bb7e12e71d9e)|No
 coronapp |Turkey     |[coronapp](https://coronapp.tech/)|No
 coronawarner |Turkey     |[coronawarner](https://www.linkedin.com/posts/geodotech_corowarner-hackcorona-coronathontaesrkiye-activity-6648915397267476480-TT4N)|No
@@ -123,6 +124,13 @@ AI triage and clinical predictions platform._"  from link:
 - **Opensource**: NO
 ***
 
+### `corona-datenspende`
+- <a href="https://corona-datenspende.de/" target="_blank">Corona Data Donation</a>
+- **Opensource**: NO
+- smartwatch and fitness tracker data is collectted
+- Related news: <a href="https://uk.mobile.reuters.com/article/amp/idUKKBN21P1SS" target="_blank">Germany launches smartwatch app to monitor coronavirus spread</a>
+
+***
 
 ## Czech
 ### `Smart quarantine`

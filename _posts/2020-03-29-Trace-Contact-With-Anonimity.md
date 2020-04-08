@@ -75,7 +75,7 @@ is quite interesting as well. Still trying to figure out the intersection set an
 With the argument <a href="https://tools.decodeproject.eu/" target="_blank">"DECODE gives back Data Sovereignty to Citizens"</a>, 
 decode is as well seems to be inline with Disposable Identities. Following post 
 <a href="https://medium.com/@jaromil/decentralized-privacy-preserving-proximity-tracing-cryptography-made-easy-af0a6ae48640" 
-target="_blank">Decentralized Privacy-Preserving Proximity Tracing</a> outlines how it can be used within contact trace 
+target="_blank">Decentralized Privacy-Preserving Proximity Tracing (DP-3T) </a> outlines how it can be used within contact trace 
 context of COVID-19.
 
 
