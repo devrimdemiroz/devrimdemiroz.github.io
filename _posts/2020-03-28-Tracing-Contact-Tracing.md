@@ -5,16 +5,16 @@ category: home
 comments_id: 1
 ---
 
-_Last Update: April 8 11:00:00 CET 2020_  
+_Last Update: April 9 11:00:00 CET 2020_  
 Just documenting COVID-19 related contact trace softwares..  
 
-
 Chasing “Contact Trace” Softwares around the world brought me here as I was not able to find a consolidated listing of what is available. 
-I hope it helps others… Please feel free to contribute. 
+I hope it helps others… 
+
 
 Product      | Country      | URL          | Opensource
 ------------ | -------------|--------------|-------------
-PrivateTracer|Netherlands     |<a href="https://www.odyssey.org/pandemic-response-ecosystem/" target="_blank">PrivateTracer</a>|<a href="https://gitlab.com/PrivateTracer/" target="_blank">Sources</a>
+PrivateTracer|Netherlands     |<a href="https://www.privatetracer.org/" target="_blank">PrivateTracer</a>|<a href="https://gitlab.com/PrivateTracer/" target="_blank">Sources</a>
 WHO App|World Health Organization     |[WHO App](https://docs.google.com/document/d/1isNMLpwI2iUY92KPwJHfY7kQnpN3oCuUl6c94J7Qmhs/edit)|[sources](https://github.com/WorldHealthOrganization/app)
 tracetogether|Singapore     |[tracetogether](https://www.tracetogether.gov.sg/)|In future
 hamagen|Israel     |[hamagen](https://govextra.gov.il/ministry-of-health/hamagen-app/download-en/)|[sources](https://govextra.gov.il/ministry-of-health/hamagen-app/download-en/)
@@ -37,15 +37,17 @@ StayHome |Abu Dhabi    |<a href="https://twitter.com/admediaoffice/status/124612
 CoronApp |Colombia    |<a href="https://apps.apple.com/bf/app/coronapp-colombia/id1502037648" target="_blank">CoronApp</a>|No
 iTrac |Unknown    |<a href="https://itrac.io/" target="_blank">iTrac</a>|<a href="https://github.com/broadmind-admin/iTrac-Info" target="_blank">sources</a>
 
-
-Details ahead
+UPDATE: I am no more updating the list. A new collective extensive list has been established:  
+Please see <a href="https://docs.google.com/document/d/16Kh4_Q_tmyRh0-v452wiul9oQAiTRj8AdZ5vcOJum9Y/" target="_blank">Unified research on privacy-preserving contact tracing and exposure notification for COVID-19</a>
+Also GDPRhub has a good list another valuable resource: <a href="https://gdprhub.eu/index.php?title=Projects_using_personal_data_to_combat_SARS-CoV-2" target="_blank">Projects using personal data to combat SARS-CoV-2</a>
 
 ## Netherlands
 ### `PrivateTracer`
-- **So far, the best designed solution offers privacy without a big brother!**
 - **Opensource**: <a href="https://gitlab.com/PrivateTracer/" target="_blank">https://gitlab.com/PrivateTracer/</a>
+- <a href="https://www.privatetracer.org/" target="_blank">PrivateTracer</a>
+- **So far, the best designed solution offers privacy without a big brother!**
 - <a href="https://www.odyssey.org/pandemic-response-ecosystem/" target="_blank">https://www.odyssey.org/pandemic-response-ecosystem/</a>
-- Technical solution document: <a href="https://docs.google.com/document/d/16Ks_F23ivjfeTzZ6ZyRNTMpeNsA77lKbLiCTy_F1Ld8/edit#heading=h.rm8u1q1t3xc1" target="_blank">BUILDING A PANDEMIC RESPONSE ECOSYSTEM</a>
+- Technical solution document: <a href="https://gitlab.com/PrivateTracer/coordination/-/blob/master/PrivateTracer%20-%20Technical%20Design.md" target="_blank">BUILDING A PANDEMIC RESPONSE ECOSYSTEM</a>
 - Even development just started, the parties behind is promising.
 
 
@@ -216,3 +218,5 @@ target="_blank">CoronApp - Colombia, the app to know the evolution of the corona
 ### `iTrac` 
 - <a href="https://itrac.io/" target="_blank">iTrac</a>
 - **Opensource**: Linkis available but no files yet <a href="https://github.com/broadmind-admin/iTrac-Info" target="_blank">sources</a>
+- The diagram they use on their website originates from 
+<a href="https://en.wikipedia.org/wiki/Contact_tracing" target="_blank">https://en.wikipedia.org/wiki/Contact_tracing</a>
