@@ -1,11 +1,12 @@
-### Write me
+{% for post in site.posts %}
+{% if post.category =="home"%}
+## {{ post.title }}
+{{ post.content }}
+{% endif %}
+{% endfor %}
 
 
+Next: [{{ site.posts.first.title }}]({{ site.posts.first.url }})
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
+
+ 
