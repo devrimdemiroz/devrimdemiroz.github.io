@@ -12,8 +12,7 @@ flowchart TD
         subgraph blog
          direction LR
             Tracing(Tracing)
-            Tracing --> the((the))
-            the --> F(Observability)
+            Tracing --> the(the Observability)
         end
         
         
