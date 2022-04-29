@@ -1,2 +1,2 @@
 - [Home](README.md)
-- 
+  - [Ideas] (Ideas.md)
