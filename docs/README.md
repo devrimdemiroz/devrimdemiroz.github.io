@@ -6,5 +6,5 @@ graph TD
     B --> C{about}
     C --> D[Tracing]
     C --> E[the]
-    C --> F[Observability]
+    C --> F[Observability];
 ```

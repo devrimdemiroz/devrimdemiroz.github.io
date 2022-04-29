@@ -9,10 +9,11 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
+<script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
+<script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
+<script>mermaid.initialize({ startOnLoad: true });</script>
   <div id="app"></div>
-  <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
-  <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
-  <script>mermaid.initialize({ startOnLoad: true });</script>
+
   <script>
     window.$docsify = {
       name: 'Tracing the Observability',
