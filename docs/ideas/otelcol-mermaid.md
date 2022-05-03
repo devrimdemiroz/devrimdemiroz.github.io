@@ -1,3 +1,4 @@
+ Discussed in  Grafana Agent community call https://www.youtube.com/watch?v=ftopI1chyG0&t=1080s "Focus on data flow..." section, I tried how i would like to extract a visual from otel-config.yaml.
 ```yaml
 
     service:
@@ -16,6 +17,8 @@
           receivers: [otlp,prometheus]
           exporters: [prometheusremotewrite,prometheusremotewrite/1]
 ```
+---
+
 ```mermaid
 flowchart TD
 
