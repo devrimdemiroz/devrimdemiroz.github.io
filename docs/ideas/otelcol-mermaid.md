@@ -17,23 +17,29 @@
           exporters: [prometheusremotewrite,prometheusremotewrite/1]
 ```
 ```mermaid
-flowchart LR
+flowchart TD
+classDef tclass fill:#f96,stroke:#f66,stroke-width:2px,color:#fff
+
+te(otlp)
 subgraph pipeline_traces
-  subgraph t_receivers
-            tr(otlp)
+    direction LR
+    subgraph receivers
             
-        end
-    subgraph t_processor
+            T1((T)):::tclass
+            
+    end
+    subgraph processors
             tp1(spanmetrics)
             tp2(batch)
-        end
-        subgraph t_exporter
-            te(otlp)
-            
-        end
-        tr-->t_processor-->te
     end
+    subgraph exporters
+            T2((T)):::tclass
+            
+            
+    end
+        otlp-->T1-->processors-->T2-->te
+        linkStyle 0 stroke:#f96,stroke-width:3px,color:orange;
+end
 
-    
     metrics((M))
 ```
