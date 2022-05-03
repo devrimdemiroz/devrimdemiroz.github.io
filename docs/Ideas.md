@@ -5,7 +5,8 @@
 
 
 ### 2 - opentelemetry-collector visualization
-As discussed in latest Grafana Agent community call
+As discussed in latest Grafana Agent community call https://www.youtube.com/watch?v=ftopI1chyG0&t=1080s "Focus on data flow..." section, I tried how i would like to extract a visual from otel-config.yaml. [A couple of tries with mermaid](ideas/otelcol-mermaid.md)
+
 
 
 ### 3 - Flamegraph like tracing graphs
