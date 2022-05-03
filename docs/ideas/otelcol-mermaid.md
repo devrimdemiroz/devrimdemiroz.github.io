@@ -1,7 +1,7 @@
 ```yaml
 
     service:
-      extensions: [pprof, zpages, health_check,sigv4auth]
+      extensions: [pprof, zpages, health_check]
       pipelines:
         traces:
           receivers: [otlp]
@@ -18,9 +18,13 @@
 ```
 ```mermaid
 flowchart TD
+
 classDef tclass fill:#f96,stroke:#f66,stroke-width:2px,color:#fff
+classDef mclass fill:blue,stroke:blue,stroke-width:2px,color:#fff
 
 te(otlp)
+subgraph otelcol
+direction LR
 subgraph pipeline_traces
     direction LR
     subgraph receivers
@@ -37,8 +41,28 @@ subgraph pipeline_traces
             
             
     end
-        otlp-->T1-->processors-->T2-->te
-        linkStyle 0 stroke:#f96,stroke-width:3px,color:orange;
+        otlp1-->T1-->processors-->T2-->te
+        linkStyle 0,1,2,3 stroke:#f96,stroke-width:3px,color:orange;
+        
+end
+     
+subgraph pipeline_metrics
+    direction LR
+    subgraph receivers2
+            
+            M1((M)):::mclass
+            
+    end
+
+    subgraph exporters2
+            M2((M)):::mclass
+            
+            
+    end
+        otlp2 & prometheus -->M1-->M2-->prometheusremotewrite & prometheusremotewrite2
+        linkStyle 4,5,6,7 stroke:blue,stroke-width:3px,color:blue;
+        
+end
 end
 
     metrics((M))
