@@ -11,12 +11,16 @@
 <body>
 
   <div id="app"></div>
-
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script>
     window.$docsify = {
       name: '',
       repo: '',
-      loadSidebar: true
+      loadSidebar: true,
+      plugins: [
+
+        EditOnGithubPlugin.create('https://github.com/devrimdemiroz/devrimdemiroz.github.io/blob/master/docs/README.md', null, 'edit')
+      ]
     }
   </script>
   <!-- Docsify v4 t -->
@@ -30,16 +34,8 @@
       logLevel: 1
     });
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
-  <script>
-    window.$docsify = {
-      // your config
-      // ...
-      plugins: [
-        EditOnGithubPlugin.create('https://github.com/devrimdemiroz/devrimdemiroz.github.io/tree/master/docs', null, 'edit')
-      ]
-    }
-  </script>
+
+
 
 </body>
 </html>
