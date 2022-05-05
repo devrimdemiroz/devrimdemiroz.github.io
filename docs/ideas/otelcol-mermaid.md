@@ -68,6 +68,10 @@ direction LR
             linkStyle 4,5,6,7,8 stroke:blue,stroke-width:3px,color:blue;
             
     end
+
+ subgraph pipeline_spanmetrics
+end
+
 end
 
     
