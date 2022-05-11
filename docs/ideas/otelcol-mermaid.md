@@ -24,7 +24,7 @@
 ```mermaid
 flowchart TD
 
-classDef tclass fill:#f96,stroke:#f66,stroke-width:2px,color:#fff
+classDef tclass fill:orange,stroke:#f66,stroke-width:2px,color:#fff
 classDef mclass fill:blue,stroke:blue,stroke-width:2px,color:#fff
 
 te(otlp)
