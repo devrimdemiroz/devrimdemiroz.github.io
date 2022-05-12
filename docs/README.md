@@ -4,7 +4,7 @@
 flowchart TD
     subgraph by
             DD(Devrim Demiroz)
-            DD-->Descartes>I blog here for Opentelemetry exists]
+            DD-->Descartes>I blog there for Opentelemetry exists]
         end
     subgraph a
         direction LR
@@ -15,7 +15,7 @@ flowchart TD
             Tracing --> the(the Observability)
         end
         
-        
+        click Tracing "http://www.github.com"
     end
 
     
