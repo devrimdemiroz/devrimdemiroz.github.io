@@ -18,9 +18,10 @@ flowchart TD
      subgraph Ideas
         direction LR
         
-     
+         
     end
-click Ideas "./#Ideas"
+      click Ideas "./#Ideas";     
+      click Tracing "./#Ideas";     
    
    
      subgraph by
