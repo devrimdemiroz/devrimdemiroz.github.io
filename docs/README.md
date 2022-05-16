@@ -2,10 +2,7 @@
 
 ```mermaid
 flowchart TD
-    subgraph by
-            DD(Devrim Demiroz)
-            DD-->Descartes>I blog there for Opentelemetry exists]
-        end
+   
     subgraph a
         direction LR
         
@@ -15,10 +12,21 @@ flowchart TD
             Tracing --> the(the Observability)
         end
         
-        click Tracing "http://www.github.com"
+     
+    end
+    
+     subgraph Ideas
+        direction LR
+        
+     
     end
 
-    
+   click Ideas "/Ideas"
+   
+     subgraph by
+            DD(Devrim Demiroz)
+            DD-->Descartes>I blog, there for Opentelemetry exists]
+     end
     
     blog --> by        
     
