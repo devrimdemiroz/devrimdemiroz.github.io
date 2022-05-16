@@ -20,8 +20,8 @@ flowchart TD
         
      
     end
-
-   click Ideas "/Ideas"
+click Ideas "./#Ideas"
+   
    
      subgraph by
             DD(Devrim Demiroz)
