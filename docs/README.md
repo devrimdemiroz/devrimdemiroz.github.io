@@ -24,14 +24,16 @@ flowchart TD
             DD(Devrim Demiroz)
             DD-->Descartes>I blog, there for Opentelemetry exists]
      end
-     
+
+    blog --> by        
+    
+         
          subgraph Ideas
         direction LR
         
         otelcol-mermaid-visualizer(otelcol-mermaid-visualizer)
          
     end
-    blog --> by        
     the-observability---->Ideas
       click otelcol-mermaid-visualizer "/Ideas/otelcol-mermaid-visualizer";     
     
