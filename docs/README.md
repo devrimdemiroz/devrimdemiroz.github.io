@@ -35,7 +35,7 @@ flowchart TD
          
     end
     the-observability---->Ideas
-      click otelcol-mermaid-visualizer "/Ideas/otelcol-mermaid-visualizer";     
+      click otelcol-mermaid-visualizer "#/Ideas/otelcol-mermaid-visualizer";     
     
         
 
