@@ -1,3 +1,4 @@
+{docsify-updated}
 # Pocketful of Rainbows:
 
 ### 1 - opentelemetry-browser

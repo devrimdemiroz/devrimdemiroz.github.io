@@ -1,4 +1,6 @@
-# Abstract
+# A Sample Scope of Work for Distributed Tracing Implementation
+
+### Abstract
 
 Intended for those who want to know what are deliverables. 
 As a former APM consultant, following scope of work is something I derived over the years.
@@ -12,7 +14,6 @@ By passing the analysis cheat sheet for now, the tasks are the things one would 
 flowchart LR
 Agent --> Collector --> Connectivity
 ```
-### A Sample Scope of Work for Distributed Tracing Implementation
 
 #### 1- Agent deployment/installation or mining point configurations
 - Maximum instrumentation to see what is available as a starting point

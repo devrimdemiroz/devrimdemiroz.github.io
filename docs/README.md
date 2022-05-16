@@ -1,41 +1,36 @@
-
-
 ```mermaid
 flowchart TD
           
-    subgraph a
         direction LR
         
         subgraph blog
          direction LR
-            Tracing(Tracing)
-            Tracing --> the-observability(the Observability)
+            TtO(Tracing <br/> the Observability)
         end
         
-     
-    end
     
 
       
    
    
      subgraph by
-       direction LR
             DD(Devrim Demiroz)
             DD-->Descartes>I blog, there for Opentelemetry exists]
      end
 
-    blog --> by        
+    blog -------> by        
     
-         
-         subgraph Ideas
-        direction LR
-        
-        otelcol-mermaid-visualizer(otelcol-mermaid-visualizer)
-         
+    subgraph s_ideas [" "]
+
+        ideas((ideas)) --> opentelemetry-browser & otelcol-mermaid-visualizer(otelcol-mermaid-visualizer)
     end
-    the-observability---->Ideas
-      click otelcol-mermaid-visualizer "#/Ideas/otelcol-mermaid-visualizer";     
+         
+         
+    TtO -->ideas & sow(A Sample <br/> Scope Of Work)
+   click sow "/#/ScopeOfWork";     
+   click ideas "/#/ideas";     
+   click opentelemetry-browser "https://github.com/devrimdemiroz/opentelemetry-browser" "Open this in a new tab" _blank;     
+   click otelcol-mermaid-visualizer "/#/ideas/otelcol-mermaid-visualizer";     
     
         
 
