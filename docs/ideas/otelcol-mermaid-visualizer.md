@@ -4,11 +4,18 @@
 Discussed in  Grafana Agent community call https://www.youtube.com/watch?v=ftopI1chyG0&t=1080s "Focus on data flow..." section, I tried how i would like to extract a visual from otel-config.yaml. Although the aim in discussion is more extensive but more grafana agent targeted, I intentionally tried my perception of visual over otelcol config. Mermaid used likewise in call for Graph as Code purposes here within.
 
 ### In action
-Spiked an auto generated sample to play with here https://github.com/devrimdemiroz/opentelemetry-browser/blob/main/docs/GeneratedDiagram.md
+Spiked an auto generated sample to play with here 
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+<a href="(https://github.com/devrimdemiroz/opentelemetry-browser/blob/main/docs/GeneratedDiagram.md" ><i class="fab fa-github"></i> GeneratedDiagram.md</a>
+
+<i class="fa fa-file-code-o" aria-hidden="true"></i>
 
 ```mermaid
 flowchart LR
-otelcol-config.yaml-->|transform|mermaid(mermaid diagram as code)
+
+
+otelcol-config.yaml[fa:fa-file-code otelcol-config.yaml]-->|transform|mermaid(mermaid diagram as code)
 ```
 ### Sample otelcol-config.yaml
 ```yaml
