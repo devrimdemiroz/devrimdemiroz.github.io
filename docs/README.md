@@ -29,7 +29,7 @@ flowchart TD
          
    TtO -->ideas & sow(A Sample <br/> Scope Of Work <br/><span class='material-icons'>open_in_new</span>)
    click sow "/#/ScopeOfWork";     
-   click ideas "/#/ideas";     
+   click ideas "/#/Ideas";     
    click opentelemetry-browser "https://github.com/devrimdemiroz/opentelemetry-browser" "Open this in a new tab";     
    click otelcol-mermaid-visualizer "/#/ideas/otelcol-mermaid-visualizer";     
     
