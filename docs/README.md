@@ -24,7 +24,7 @@ flowchart TD
          
      subgraph by[" "]
             DD(Devrim Demiroz)
-            DD-->Descartes>I blog, there for Opentelemetry exists]
+            DD-->Descartes>I blog, there for Opentelemetry is]
      end
          
    TtO -->ideas & sow(A Sample <br/> Scope Of Work <br/><span class='material-icons'>open_in_new</span>)
