@@ -15,8 +15,34 @@ Grafana "Dashboard as Code" https://andidog.de/blog/2022-04-21-grafana-dashboard
 <img width="1121" alt="image" src="https://user-images.githubusercontent.com/62701796/192148473-97e5273a-ca92-48a7-99ae-3d8a6877bd66.png">
 
 ##### Option 2 : Using promql and nodegraph plug in
-<img width="336" alt="image" src="https://user-images.githubusercontent.com/62701796/192148578-9c019c11-dc5a-4ddf-933a-422fe3a90c71.png">
 
+<img width="759" alt="image" src="https://user-images.githubusercontent.com/62701796/192165733-8bd5f9ba-4449-495b-9ba5-8a2b0660ba42.png">
+Using pure promql to form nodeGraph service architectures.
+
+### **nodes**
+```
+label_replace(label_replace(label_replace(
+sum by(__name__, receiver, exporter) ({__name__=~".*(accepted|sent)_metric_points", job="otelcol"})
+, "id", "$0", "__name__", ".*")
+, "title", "$1", "id"
+, "(.*)"),"mainstat","$otelcol_receiver_accepted_metric_points","","")
+```
+
+### **edges**
+```label_join(label_replace(label_replace(label_replace(
+sum ({__name__=~".*(accepted|sent)_metric_points",job="otelcol"}  ) 
+,"source","otelcol_receiver_accepted_metric_points","","")
+,"target","otelcol_exporter_sent_metric_points","","")
+,"mainstat","$otelcol_receiver_accepted_metric_points","","")
+,"id","_","source","target")
+```
+
+###  template variable
+
+```
+query_result(avg(sum` by() (rate({__name__=~".*(accepted|sent)_metric_points",job="otelcol"}[1m])   )))
+regex /.*\s(.+)\s.+/
+```
 
 
 
