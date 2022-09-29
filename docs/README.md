@@ -8,8 +8,8 @@ flowchart TD
     direction LR
     
     subgraph blog[" "]
-     direction LR
-        TtO(Tracing <br/> the Observability)
+     
+        TtO(Tracing the Observability)
     end
         
     

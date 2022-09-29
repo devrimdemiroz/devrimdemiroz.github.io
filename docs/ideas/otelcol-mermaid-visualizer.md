@@ -1,14 +1,13 @@
 # Opentelemetry Collector Visualization
 
-### Plot
-Discussed in  Grafana Agent community call https://www.youtube.com/watch?v=ftopI1chyG0&t=1080s "Focus on data flow..." section, I tried how i would like to extract a visual from otel-config.yaml. Although the aim in discussion is more extensive but more grafana agent targeted, I intentionally tried my perception of visual over otelcol config. Mermaid used likewise in call for Graph as Code purposes here within.
+### Focus on data flow
+I tried how i would like to extract a visual from otel-config.yaml. Although the aim in discussion is more extensive but more grafana agent targeted, I intentionally tried my perception of visual over otelcol config. Mermaid used likewise in call for Graph as Code purposes here within.
 
 ### Notes
 
 #### Automating dashboard
 
 Grafana "Dashboard as Code" https://andidog.de/blog/2022-04-21-grafana-dashboards-best-practices-dashboards-as-code#:~:text=Grafana%20is%20a%20web%2Dbased,all%20based%20on%20open%20source.
-
 
 #### Connecting Metrics On Dashboard
 ##### Option 1 : Via mermaidjs and diagram grafana plug in
@@ -18,6 +17,9 @@ Grafana "Dashboard as Code" https://andidog.de/blog/2022-04-21-grafana-dashboard
 
 <img width="759" alt="image" src="https://user-images.githubusercontent.com/62701796/192165733-8bd5f9ba-4449-495b-9ba5-8a2b0660ba42.png">
 Using pure promql to form nodeGraph service architectures.
+
+Additionally 
+https://sriramajeyam.com/grafana-infinity-datasource/wiki/node-graph works with some effort over top, and works less tricky than the above solution. You are able to mix with other data sources, eg. you need edges as constants.
 
 ### **nodes**
 ```
