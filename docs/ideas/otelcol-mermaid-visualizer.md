@@ -7,7 +7,7 @@ I tried how i would like to extract a visual from otel-config.yaml. Although the
 
 #### Automating dashboard
 
-Grafana "Dashboard as Code" https://andidog.de/blog/2022-04-21-grafana-dashboards-best-practices-dashboards-as-code#:~:text=Grafana%20is%20a%20web%2Dbased,all%20based%20on%20open%20source.
+TODO: Grafana [Dashboard as Code](https://andidog.de/blog/2022-04-21-grafana-dashboards-best-practices-dashboards-as-code#:~:text=Grafana%20is%20a%20web%2Dbased,all%20based%20on%20open%20source)
 
 #### Connecting Metrics On Dashboard
 ##### Option 1 : Via mermaidjs and diagram grafana plug in
