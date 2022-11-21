@@ -73,9 +73,7 @@ gitGraph
         merge distributed-tracing type:REVERSE
         merge apm type:REVERSE
         commit id:"opentelemetry"
-        checkout main
-        
-        
+        checkout main        
         commit id:"2022"
 ```
 
